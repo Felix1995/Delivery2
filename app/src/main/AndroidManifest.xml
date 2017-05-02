@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.felix.delivery">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.felix.delivery.SushiActivity"
+            android:label="Роллы"
+            ></activity>
+        <activity
+            android:name="com.example.felix.delivery.PizzaActivity"
+            android:label="Пицца"
+            ></activity>
+        <activity
+            android:name="com.example.felix.delivery.BurgerActivity"
+            android:label="Бургер"
+            ></activity>
+        <activity
+            android:name="com.example.felix.delivery.SteakActivity"
+            android:label="Стейки и шашлыки"
+            ></activity>
+        <activity
+            android:name="com.example.felix.delivery.BakeActivity"
+            android:label="Выпечка и десерты"
+            ></activity>
+        <activity
+            android:name="com.example.felix.delivery.DrinkActivity"
+            android:label="Напитки"
+            ></activity>
+        <activity
+            android:name="com.example.felix.delivery.MenuBasket"
+            android:label="Корзина"
+            ></activity>
+        <activity
+            android:name="com.example.felix.delivery.MenuContacts"
+            android:label="Контакты"
+            ></activity>
+    </application>
+</manifest>

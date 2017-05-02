@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/rolli"
+            android:onClick="sushiClick"
+            android:paddingLeft="20dp"
+            android:text="Роллы"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/white"
+            android:textIsSelectable="false"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/pizza3"
+            android:onClick="pizzaClick"
+            android:paddingLeft="20dp"
+            android:text="пицца"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/burger"
+            android:onClick="burgerClick"
+            android:paddingLeft="20dp"
+            android:text="Бургеры"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/steak"
+            android:onClick="steakClick"
+            android:paddingLeft="20dp"
+            android:text="Стейки и шашлыки"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_weight="0.19" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/bake"
+            android:onClick="bakeClick"
+            android:paddingLeft="20dp"
+            android:text="Выпечка и десерты"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/drin"
+            android:onClick="drinkClick"
+            android:paddingLeft="20dp"
+            android:text="Напитки"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
