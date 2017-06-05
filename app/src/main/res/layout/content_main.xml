@@ -16,7 +16,7 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="55dp"
             android:background="@drawable/rolli"
             android:onClick="sushiClick"
             android:paddingLeft="20dp"
@@ -34,7 +34,7 @@
             android:background="@drawable/pizza3"
             android:onClick="pizzaClick"
             android:paddingLeft="20dp"
-            android:text="пицца"
+            android:text="Пицца"
             android:textAlignment="viewStart"
             android:textColor="@android:color/white"
             android:textSize="22sp"
@@ -64,8 +64,7 @@
             android:textAlignment="viewStart"
             android:textColor="@android:color/background_light"
             android:textSize="22sp"
-            android:textStyle="bold"
-            android:layout_weight="0.19" />
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button6"
