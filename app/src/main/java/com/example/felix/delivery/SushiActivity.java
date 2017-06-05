@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -40,9 +41,9 @@ public class SushiActivity extends Activity {
         bitmap[0]= BitmapFactory.decodeResource(getResources(),R.drawable.rolli1);
         bitmap[1]= BitmapFactory.decodeResource(getResources(),R.drawable.rolli2);
         bitmap[2]= BitmapFactory.decodeResource(getResources(),R.drawable.rolli3);
-        bitmap[3]= BitmapFactory.decodeResource(getResources(),R.drawable.rolli4);
+        bitmap[3]= BitmapFactory.decodeResource(getResources(),R.drawable.rolli3); // TODO: rolli4
         bitmap[4]= BitmapFactory.decodeResource(getResources(),R.drawable.rolli5);
-        bitmap[5]= BitmapFactory.decodeResource(getResources(),R.drawable.rolli6);
+        bitmap[5]= BitmapFactory.decodeResource(getResources(),R.drawable.rolli5); // TODO: rolli6
 
         for (int i=0; i<=5; i++){
             arrayList.add(new Product(
@@ -67,6 +68,10 @@ public class SushiActivity extends Activity {
 
                 }
             });
-    }
 
+        // Назначаем слушатель кликов
+        //for (int i = 0; i < arrayList.size(); i++) {
+
+        //}
+    }
 }
