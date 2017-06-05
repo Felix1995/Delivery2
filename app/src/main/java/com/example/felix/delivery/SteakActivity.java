@@ -34,9 +34,9 @@ public class SteakActivity extends Activity {
         };
 
         Bitmap[] bitmap= new Bitmap[3];
-        bitmap[0]= BitmapFactory.decodeResource(getResources(),R.drawable.steak1);
-        bitmap[1]= BitmapFactory.decodeResource(getResources(),R.drawable.steak2);
-        bitmap[2]= BitmapFactory.decodeResource(getResources(),R.drawable.steak3);
+        bitmap[0]= BitmapFactory.decodeResource(getResources(),R.drawable.steak); // TODO: steak1
+        bitmap[1]= BitmapFactory.decodeResource(getResources(),R.drawable.steak); // TODO: steak2
+        bitmap[2]= BitmapFactory.decodeResource(getResources(),R.drawable.steak); // TODO: steak3
 
         for (int i=0; i<=2; i++){
             arrayList.add(new Product(
